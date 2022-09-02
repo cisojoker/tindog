@@ -1,0 +1,118 @@
+#title {
+  padding: 0 7%;
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-bold";
+}
+h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.container {
+  padding: 3% 10%;
+}
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+/* navbar codes */
+.navbar-brand {
+  font-size: 2rem;
+  font-family: "ubuntu";
+  font-weight: bold;
+}
+.navbar {
+  padding-bottom: 3rem;
+  padding-left: 0rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+/*         */
+.download-btn {
+  margin: 5% 3% 5% 0%;
+}
+.phoneimg {
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: absolute;
+  z-index: 1;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+p {
+  color: grey;
+}
+.sym:hover {
+  color: #ff4c68;
+}
+#testimonials {
+  color: #fff;
+  font-weight: bold;
+  padding: 0%;
+}
+.bhaw {
+  border-radius: 100%;
+  width: 150px;
+  margin: 5%;
+}
+
+.carousel-item {
+  padding: 2% 13%;
+}
+.pressimg {
+  width: 15%;
+  margin: 20px 40px;
+}
+#pricing {
+  padding: 50px;
+}
+#carouselExampleControls {
+  padding: 50% 0% 0% 0%;
+}
+@media (max-width: 1093px) {
+  #title {
+    text-align: center;
+  }
+  .phoneimg {
+    position: static;
+    transform: rotate(0);
+  }
+}
+#cta {
+  padding: 7% 20% 7% 20%;
+}
+#kan {
+  font-family: "Montserrat-bold";
+  color: #fff;
+  font-size: 3.5rem;
+  padding-bottom: 2%;
+}
+#footer {
+  padding: 3% 7%;
+}
+.bgc {
+  background-color: #ff4c68;
+}
